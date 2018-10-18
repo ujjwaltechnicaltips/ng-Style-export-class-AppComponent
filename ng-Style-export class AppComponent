@@ -1,0 +1,21 @@
+import { Component } from '@angular/core';
+import { removeDebugNodeFromIndex } from '@angular/core/src/debug/debug_node';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+
+  name:string = "Pushpendra";
+   era =
+  {
+"color":"red"
+  }
+}
+------------------------------------------------------------------------------------------------------------------------------------------
+
+<p [ngStyle]="era">{{name}}</p>
+ 
+
